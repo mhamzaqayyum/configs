@@ -1,7 +1,7 @@
 " Taken from Geohot's .vimrc
 syntax on
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set ai
 set number
@@ -11,13 +11,9 @@ highlight Comment ctermfg=green
 
 " double-press of = key moves to next tab
 nnoremap == gt
-inoremap == gt
-vnoremap == gt
 
 " double-press of - key moves to previous tab
 nnoremap -- gT
-inoremap -- gT
-vnoremap -- gT
 
 " double press 1 key moves current tab one position to the left 
 map 11 :tabm -1<CR>
