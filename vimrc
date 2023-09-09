@@ -7,6 +7,8 @@ set ai
 set number
 set hlsearch
 set ruler
+set mouse=a
+
 highlight Comment ctermfg=green
 
 " double-press of = key moves to next tab
