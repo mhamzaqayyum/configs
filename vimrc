@@ -22,3 +22,6 @@ map 11 :tabm -1<CR>
 
 " double press 2 key moves current tab one position to the right
 map 22 :tabm +1<CR>
+
+" If editing Makefile, use tabs
+autocmd FileType make setlocal noexpandtab
